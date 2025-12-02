@@ -50,16 +50,3 @@ colour-trading-website/
 │   │    │    ├── auth.js
 │   │    ├── styles/
 │   │    │    ├── tailwind.css
-│   ├── .env.example
-
-├── README.md  <- Full deployment instructions
-
-Steps to Deploy:
-
-1. Extract zip and push backend/frontend folders to separate GitHub repos.
-2. Set up MongoDB Atlas and copy MONGO_URI.
-3. Set up Stripe and Razorpay keys.
-4. Deploy backend on Railway or Render, set env variables from backend/.env.example, run seedColours.js.
-5. Deploy frontend on Vercel, set REACT_APP_API_URL to deployed backend URL.
-6. Open frontend URL for the live working website.
-   */
